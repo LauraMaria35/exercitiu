@@ -1,0 +1,112 @@
+
+body{
+    background-color: #5a7889;
+}
+
+#geel{
+    background-image: url(../IMG/geel.png);
+    width: 241px;
+    height: 142px;
+    position: fixed;
+    left: 40px;
+    bottom: 30px;
+}
+
+#geel:hover{
+    cursor:pointer;
+    height: 300px;
+}
+
+#bed{
+    background-image: url(../IMG/bed.png);
+    width: 330px;
+    height: 212px;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    transition: all 1s;
+    background-repeat: no-repeat;
+}
+
+#bed:hover{
+    transition: all 1s;
+    cursor:pointer;
+    height: 310px;
+    background-repeat: no-repeat;
+}
+
+#deur{
+    background-image: url(../IMG/deur.png);
+    width: 174px;
+    height: 271px;
+    position: fixed;
+    right: 140px;
+    bottom: 55px;
+    transition: all 1s;
+}
+
+#deur:hover{
+    transition: all 1s;
+    cursor:pointer;
+    right: 15px;
+}
+
+#lamp{
+    background-image: url(../IMG/lamp.png);
+    width: 193px;
+    height: 370px;
+    position: fixed;
+    left: 30px;
+    top: -300px;
+    transition: all 1s;
+}
+
+#lamp:hover{
+    transition: all 1s;
+    cursor:pointer;
+    top: -20px;
+}
+
+#roze{
+    background-image: url(../IMG/roze.png);
+    width: 208px;
+    height: 352px;
+    position: fixed;
+    right: 125px;
+    bottom: 30px;
+}
+
+#roze:hover{
+    cursor:pointer;
+}
+
+#window{
+    background-image: url(../IMG/window.png);
+    width: 400px;
+    height: 400px;
+    position: fixed;
+    right: 300px;
+    top: -20px;
+}
+
+#window:hover{
+    cursor:pointer;
+}
+
+#monster{
+    background-image: url(../IMG/monster.png);
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    right: 400px;
+    top: 60px;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+
+#monster:hover{
+    cursor:pointer;
+    transition: all 1s;
+    height: -140px;
+    top: 260px;
+}
